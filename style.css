@@ -1,0 +1,9 @@
+/* body{
+  background-color: aqua;
+} */
+:root {
+  --bs-body-bg: aqua;
+}
+body {
+  background-color: aqua !important;
+}
