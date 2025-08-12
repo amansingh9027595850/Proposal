@@ -19,7 +19,7 @@ no.addEventListener('click',async(event)=>{
     let a=messages.length-1
     let rendomIndex = Math.round(Math.random() * a);
     title.innerText = messages[rendomIndex];
-    no.style.transform = `translate(${Math.random() * 100}px, ${Math.random() * 200}px)`;
+    no.style.transform = `translate(${Math.random() * 100}px, ${Math.random() * 100}px)`;
     no.style.transition = "all 0.5s ease-in-out";
 
 // no.style.position = "relative";
